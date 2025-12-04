@@ -134,9 +134,8 @@ const Page4 = () => {
                 /* fix the problem where the API always return object with markdown symbol */
                 const responseObject = candidate.content.parts[0].text.replace(/^```json\s*/, '').replace(/```$/, '');
 
-                let analysis1 = null;
                 try {
-                    return analysis1 = JSON.parse(responseObject);
+                    return JSON.parse(responseObject);
                 } 
                 catch (err) {
                     console.error("Failed to parse JSON from API:", candidate.content.parts[0].text);

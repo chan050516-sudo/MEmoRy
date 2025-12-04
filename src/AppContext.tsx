@@ -223,10 +223,9 @@ export function useAppContext() {
   return ctx;
 }
 
-
 const apiInfo = {
-  url: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
-  apiKey: "AIzaSyCauKfzYScgx173Le5WDp0wohl2rhhBSgo"
+  url: import.meta.env.VITE_API_URL,
+  apiKey: import.meta.env.VITE_API_KEY
 };
 
 const diaryPrompt = `

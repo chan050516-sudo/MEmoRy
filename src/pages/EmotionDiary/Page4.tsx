@@ -3,11 +3,10 @@ import {AppContext} from '../../AppContext';
 import {Link} from 'react-router-dom';
 import "./Page4.css";
 
-
 const apiInfo = {
-  urlGemini: "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
-  apiKeyGemini: "AIzaSyCauKfzYScgx173Le5WDp0wohl2rhhBSgo",
-  apiKeyYoutube: "AIzaSyCWo_QU58bqZ6MuuXdWm_1RHdnyHN4gUcg"
+  urlGemini: import.meta.env.VITE_API_URL,
+  apiKeyGemini: import.meta.env.VITE_API_KEY,
+  apiKeyYoutube: import.meta.env.VITE_YT_API_KEY
 };
 
 const summaryPrompt = `Read the full chat log and produce a narrative summary about the user.

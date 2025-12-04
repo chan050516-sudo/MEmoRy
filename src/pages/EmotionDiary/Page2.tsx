@@ -174,7 +174,7 @@ const Page2 = () => {
             loop
             className="page2-background-video"
         >
-            <source src="public/videos/sad.mp4" type="video/mp4" />
+            <source src="videos/sad.mp4" type="video/mp4" />
         </video>
         
 

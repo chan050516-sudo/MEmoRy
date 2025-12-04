@@ -78,7 +78,7 @@ const Memory = () => {
                     loop
                     className="memory-background-video"
                 >
-                    <source src="public/videos/fall.mp4" type="video/mp4" />
+                    <source src="/videos/fall.mp4" type="video/mp4" />
                 </video>
 
             {/* date picker installed from react */}

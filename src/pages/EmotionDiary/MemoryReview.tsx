@@ -118,7 +118,7 @@ const MemoryReview = () => {
                 loop
                 className="diary-background-video"
             >
-                <source src="public/videos/nostalgic.mp4" type="video/mp4" />
+                <source src="/videos/nostalgic.mp4" type="video/mp4" />
             </video>
             <div className="diary-song-container">
                 <img src={`https://img.youtube.com/vi/${calledSong.video_id}/hqdefault.jpg`} className="diary-player-thumb" />

@@ -15,7 +15,7 @@
   height: 100%;
   top: 0;
   left: 0;
-  background: url("public/images/warm filter.jpg");
+  background: url("/images/warm filter.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -186,7 +186,7 @@ const Page3 = ({onDone}: page3Props) => {
             loop
             className="page3-background-video"
         >
-            <source src="public/videos/positive.mp4" type="video/mp4" />
+            <source src="/videos/positive.mp4" type="video/mp4" />
         </video>
 
         <div className="message-display">

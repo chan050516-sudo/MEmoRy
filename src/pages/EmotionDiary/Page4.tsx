@@ -371,7 +371,7 @@ const Page4 = () => {
                 loop
                 className="page4-background-video"
             >
-                <source src="public/videos/lantern.mp4" type="video/mp4" />
+                <source src="/videos/lantern.mp4" type="video/mp4" />
             </video>
             <div className="page4-gradient-overlay">
                 <div className="page4-mood-score">

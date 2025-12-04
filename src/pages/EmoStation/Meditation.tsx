@@ -10,15 +10,15 @@ type CardType = {
 };
 
 const meditationCards: CardType[] = [
-  { id: "m1", title: "4-7-8 Calm Breathing (4min)", img: "public/images/breathing.jpg", audio: "public/audios/4-7-8 Calm Breathing Exercise  Progressively Slowing Pace   Increase Lung Capacity   Pranayama.mp3" },
-  { id: "m2", title: "Box-breathing (6min)", img: "public/images/breathing.jpg", audio: "public/audios/Box Breathing Relaxation Exercise  5 Minutes Beginner Pace  Anxiety Reduction Pranayama Technique.mp3" },
-  { id: "m3", title: "Mindfulness Meditation (10min)", img: "public/images/meditation.jpg", audio: "public/audios/Daily Calm  10 Minute Mindfulness Meditation  Be Present.mp3" },
-  { id: "m4", title: "Body Scan Meditation (12min)", img: "public/images/meditation.jpg", audio: "public/audios/10 Minute Body Scan Meditation.mp3" },
-  { id: "m5", title: "Mantra Meditation (20min)", img: "public/images/meditation.jpg", audio: "public/audios/Beginner Mantra Meditation  Free Alternative  Guided Mantra Tone with Tranquil Ambience.mp3" },
-  { id: "m6", title: "Exploring Feeling (5min)", img: "public/images/feeling.jpg", audio: "public/audios/Exploring feelings_ Manage strong emotions with this meditation exercise - Flow.mp3" },
-  { id: "m7", title: "Self Love (10min)", img: "public/images/How-to-practice-self-love.webp", audio: "public/audios/10-Minute Guided Meditation_ Self-Love  SELF.mp3" },
-  { id: "m8", title: "Positive (10min)", img: "public/images/images positive.jpg", audio: "public/audios/10 MIN Guided Meditation To Clear Your Mind & Start New Positive Habits.mp3" },
-  { id: "m9", title: "Sound-healing (10min)", img: "public/images/images.jpg", audio: "public/audios/10 Minute Crystal Singing Bowl Meditation  Sound Healing For Relaxation & Stress Relief.mp3" },
+  { id: "m1", title: "4-7-8 Calm Breathing (4min)", img: "/images/breathing.jpg", audio: "/audios/4-7-8 Calm Breathing Exercise  Progressively Slowing Pace   Increase Lung Capacity   Pranayama.mp3" },
+  { id: "m2", title: "Box-breathing (6min)", img: "/images/breathing.jpg", audio: "/audios/Box Breathing Relaxation Exercise  5 Minutes Beginner Pace  Anxiety Reduction Pranayama Technique.mp3" },
+  { id: "m3", title: "Mindfulness Meditation (10min)", img: "/images/meditation.jpg", audio: "/audios/Daily Calm  10 Minute Mindfulness Meditation  Be Present.mp3" },
+  { id: "m4", title: "Body Scan Meditation (12min)", img: "/images/meditation.jpg", audio: "/audios/10 Minute Body Scan Meditation.mp3" },
+  { id: "m5", title: "Mantra Meditation (20min)", img: "/images/meditation.jpg", audio: "/audios/Beginner Mantra Meditation  Free Alternative  Guided Mantra Tone with Tranquil Ambience.mp3" },
+  { id: "m6", title: "Exploring Feeling (5min)", img: "/images/feeling.jpg", audio: "/audios/Exploring feelings_ Manage strong emotions with this meditation exercise - Flow.mp3" },
+  { id: "m7", title: "Self Love (10min)", img: "/images/How-to-practice-self-love.webp", audio: "/audios/10-Minute Guided Meditation_ Self-Love  SELF.mp3" },
+  { id: "m8", title: "Positive (10min)", img: "/images/images positive.jpg", audio: "/audios/10 MIN Guided Meditation To Clear Your Mind & Start New Positive Habits.mp3" },
+  { id: "m9", title: "Sound-healing (10min)", img: "/images/images.jpg", audio: "/audios/10 Minute Crystal Singing Bowl Meditation  Sound Healing For Relaxation & Stress Relief.mp3" },
 ];
 
 const Meditation = () => {

@@ -424,7 +424,7 @@ const Page4 = () => {
 
         {/* 弹出浮动页面 */}
         {overlayOpen && (
-            <div className="page4-overlay" onClick={(e) => e.target.className=="page4-overlay" && setOverlayOpen(false)}>
+            <div className="page4-overlay" onClick={(e) => (e.target as HTMLElement).className === "page4-overlay" && setOverlayOpen(false)}>
             <div className="page4-popup">
                 <div className="page4-popup-title">{currentQuestion}</div>
                 <textarea

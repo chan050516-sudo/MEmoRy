@@ -18,7 +18,6 @@ const MainMenu = () => {
     const [reasons, setReasons] = useState(["", "", "", "", ""]);
     const [mode, setMode] = useState("register")
     const [showPopout, setShowPopout] = useState(false);
-    const [notice, setNotice] = useState(false)
 
     useEffect(() => {
         if (appData.userName==="" || appData.password==="") {setMode("register")}

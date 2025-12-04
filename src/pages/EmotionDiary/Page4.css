@@ -1,0 +1,208 @@
+.page4 {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background:  linear-gradient(to top, rgb(29, 4, 53), rgb(130, 130, 183), transparent);
+  overflow-x: hidden;
+}
+
+.page4-video-container {
+  position: relative;
+  width: 100%;
+  height: 55vh;
+  overflow: hidden;
+}
+
+.page4-background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.page4-gradient-overlay {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0);
+  display: inline-flex; 
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: start; 
+}
+
+.page4-mood-score {
+  width: 120px;
+  height: 120px;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  background: white;
+  border: 8px solid #abdce9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  font-weight: bold;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.page4-mood-score span {
+  font-size: 0.65em;
+  margin-top: 2px;
+  color: #444;
+}
+
+/* summary display */
+.page4-summary {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  margin-bottom: 5%;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #f9fbe0;
+  text-align: left;
+}
+
+.page4-player-bar {
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  display: flex;
+  max-width: 600px;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  z-index: 20;
+}
+
+.page4-player-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 10
+}
+
+.page4-player-thumb {
+  alt: cover;
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+}
+
+.page4-player-info {
+  flex: 1;
+  color:#f9dddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9em;
+}
+
+.page4-player-btn {
+  width: 30px;
+  height: 30px;
+  background: #ebb3b3;
+  border-radius: 50%;
+}
+
+.page4-cards {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+  padding: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.page4-card {
+  width: 40%;
+  background: #c8c9cc;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  scroll-snap-align: start;
+  font-weight: bold;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+/* overlay page */
+.page4-overlay {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 30px;
+  z-index: 50;
+  overflow-x: hidden;
+}
+
+.page4-popup {
+  width: 92%;
+  max-width: 600px;
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.25);
+}
+
+.page-popup-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.page4-popup textarea {
+  width: 95%;
+  height: 140px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  resize: none;
+  font-size: 0.95em;
+}
+
+.page4-popup-submit {
+  margin-top: 12px;
+  background: #ff4d4d;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .modules-container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .popout{
+    width: 80%;
+  }
+
+  .page4-card{
+    max-width: 70%;
+  }
+
+  .page4-mood-score{
+    height: 90px;
+    width: 90px;
+    border: 8px solid #abdce9;
+  }
+
+  .page4-summary{
+    font-size: 1rem;
+  }
+}

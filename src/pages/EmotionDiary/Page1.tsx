@@ -1,5 +1,5 @@
 import { useContext, useState, useEffect } from 'react';
-import './Page1.css';
+import './Memo.css';
 import {AppContext} from '../../AppContext';
 
 const Page1 = () => {

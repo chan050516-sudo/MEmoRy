@@ -61,6 +61,8 @@ const Page2 = () => {
   const handleResponse = async() => {
     try{
       setIsLoading(true);
+      console.log("API URL:", apiInfo.url); 
+      console.log("API KEY:", apiInfo.apiKey);
       console.log("Request sent.");
 
       const chatHistoryInput = (todayMessages.length > 10) ?  todayMessages.slice(-10): todayMessages;

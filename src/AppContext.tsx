@@ -223,10 +223,10 @@ export function useAppContext() {
   return ctx;
 }
 
-const apiInfo = {
+/*const apiInfo = {
   url: import.meta.env.VITE_API_URL,
   apiKey: import.meta.env.VITE_API_KEY
-};
+};*/
 
 const diaryPrompt = `
 Analyze the provided conversation transcript between the User and the AI.
@@ -243,7 +243,7 @@ const handleDiary = async(input: string) => {
     console.log("Request sent.");
 
     /* Data Fetching from Gemini API */
-    const response = await fetch(`${apiInfo.url}?key=${apiInfo.apiKey}`, {
+    const response = await fetch("/api/chat"/*${apiInfo.url}?key=${apiInfo.apiKey}*/, {
       method: "POST",
       headers: {"Content-Type": "application/json"},
       body: JSON.stringify({

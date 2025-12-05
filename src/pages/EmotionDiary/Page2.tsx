@@ -2,10 +2,10 @@ import {useContext, useState, useEffect, useRef} from 'react';
 import {AppContext} from '../../AppContext';
 import type { MessageType } from '../../AppContext';
 
-const apiInfo = {
+/*const apiInfo = {
   url: import.meta.env.VITE_API_URL,
   apiKey: import.meta.env.VITE_API_KEY
-};
+};*/
 
 /* set up the system prompt for AI model */
 /*const promptGeneral = "You are a mental health supporter with a warm, grounded, and human tone. Respond concisely and naturally."
@@ -61,14 +61,14 @@ const Page2 = () => {
   const handleResponse = async() => {
     try{
       setIsLoading(true);
-      console.log("API URL:", apiInfo.url); 
-      console.log("API KEY:", apiInfo.apiKey);
+      /*console.log("API URL:", apiInfo.url); 
+      console.log("API KEY:", apiInfo.apiKey);*/
       console.log("Request sent.");
 
       const chatHistoryInput = (todayMessages.length > 10) ?  todayMessages.slice(-10): todayMessages;
 
       /* Data Fetching from Gemini API */
-      const response = await fetch(`${apiInfo.url}?key=${apiInfo.apiKey}`, {
+      const response = await fetch("/api/chat", {
         method: "POST",
         headers: {"Content-Type": "application/json"},
         body: JSON.stringify({

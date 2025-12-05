@@ -82,7 +82,7 @@ const Page4 = () => {
         try{
             /* Data Fetching from Gemini API */
             const handleAnalysis1 = async() => {
-                const response = await fetch(`${apiInfo.urlGemini}?key=${apiInfo.apiKeyGemini}`, {
+                const response = await fetch("/api/chat"/*${apiInfo.urlGemini}?key=${apiInfo.apiKeyGemini}*/, {
                     method: "POST",
                     headers: {"Content-Type": "application/json"},
                     body: JSON.stringify({

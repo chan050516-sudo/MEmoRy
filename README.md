@@ -8,12 +8,15 @@ The name “MEmoRy” reflects its core features: EMO (emotion), MEMO (diary), M
 
 The Main Menu is your entry point to the MEmoRy space. It guides you gently into your personal journey.
 
-![Register](./public/screenshots/memory-register.png)
 ### Register / Login
+![Register](./public/screenshots/memory-register.png)
 - **Register:** Create your MEmoRy space with a username and password.
 - Answer a prerequisite question: List five reasons why you find yourself lovely or why others like you. This helps MEmoRy understand you better.
+
+![Register](./public/screenshots/memory-login-page.png)
 - **Login:** Enter your username and password to access your personal space. Incorrect credentials will trigger an alert to re-enter.
 
+![Register](./public/screenshots/memory-main-menu.png)
 ### Interface
 - **Emo@Diary** – Explore your emotions through Memo and Memory.
 - **Emo@Station** – Self-reflection and meditation through Me and Meditation.
@@ -25,17 +28,21 @@ The Main Menu is your entry point to the MEmoRy space. It guides you gently into
 
 ### 3.2.1 Emo@Diary – Memo
 
+![Register](./public/screenshots/memory-page1.png)
 #### Page 1: About Today
 Every day is unique, and MEmoRy helps you capture it.
 - See the date, day, and weather at a glance.
 - Upload a picture that represents today and add a few words describing why this day is special. Let it be your little memory capsule.
 
+![Register](./public/screenshots/memory-page2.png)
 #### Page 2: Negative Emotion Chat
 Some days feel heavy. Let it out here.
 - Share anything that made you feel sadness, anger, or frustration.
 - Click Send. “Listening…” appears while the AI gently guides you to discover the roots of your emotions and what your heart truly needs.
 - The background subtly changes to rainy, reflecting the mood and giving space for reflection.
 
+
+![Register](./public/screenshots/memory-page3.png)
 #### Page 3: Positive Emotion Chat
 Every joy, big or small, deserves to be shared.
 - The background becomes sunny, reflecting lightness and warmth.
@@ -43,6 +50,8 @@ Every joy, big or small, deserves to be shared.
 - Let the AI be your companion, celebrating with you.
 - Click Done when you feel ready to leave the chat. 
 
+
+![Register](./public/screenshots/memory-page4.png)
 #### Page 4: Self Reflection
 - After the day’s chats, AI summarizes your mood and gives it a mood score (0–10).
 - A song is recommended based on your mood, ready to play or pause on the player bar. Enjoy it fully.
@@ -51,7 +60,8 @@ Every joy, big or small, deserves to be shared.
 ---
 
 ### 3.2.2 Emo@Diary – Memory
-
+![Register](./public/screenshots/memory-quick-glance1.png)
+![Register](./public/screenshots/memory-quick-glance2.png)
 #### Page 1: Quick Glance
 - See a quick overview of your last five diaries’ mood scores on an interactive chart.
 - Switch between diary summaries with the arrows.
@@ -65,7 +75,7 @@ Every joy, big or small, deserves to be shared.
 ---
 
 ## 3.3 Emo@Station
-
+![Register](./public/screenshots/memory-me.png)
 ### 3.3.1 Emo@Station – Me
 Your personal corner when you feel lost or need reassurance.
 
@@ -84,11 +94,11 @@ Your personal corner when you feel lost or need reassurance.
 
 ### 3.3.2 Emo@Station – Meditation
 When emotions feel overwhelming, find calm here.
-
+![Register](./public/screenshots/memory-passthemby.png)
 #### Pass Them By
 - Choose a meditation method and duration.
 - Audio guides you through the process, helping you release tension and regain focus.
-
+![Register](./public/screenshots/memory-backtolife.png)
 #### Back to Life
 - Based on psychology theory, the usual emotion that we encountered last for 4 to 7 minutes.
 - Click the "Pick n Go" button below to redirect your attention to new stuffs, for calming yourself down naturally.

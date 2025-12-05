@@ -8,7 +8,7 @@ The name “MEmoRy” reflects its core features: EMO (emotion), MEMO (diary), M
 
 The Main Menu is your entry point to the MEmoRy space. It guides you gently into your personal journey.
 
-![Register](./public/screenshots/memory-register.jpg)
+![Register](./public/screenshots/memory-register.png)
 ### Register / Login
 - **Register:** Create your MEmoRy space with a username and password.
 - Answer a prerequisite question: List five reasons why you find yourself lovely or why others like you. This helps MEmoRy understand you better.

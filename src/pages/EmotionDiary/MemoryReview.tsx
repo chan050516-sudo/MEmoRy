@@ -142,6 +142,7 @@ const MemoryReview = () => {
             </div>
             <div className="diary-image-container">
                 <img alt="image" className="diary-image" src={`${calledDiaryInfo.image}`}/>
+                <p className="diary-description">{calledDiaryInfo.description}</p>
             </div>
         </div>
         </div>

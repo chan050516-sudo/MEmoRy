@@ -207,6 +207,10 @@ diary-video-container {
     margin-top: 0.2rem;
 }
 
+.diary-description {
+    color: chartreuse;
+}
+
 /* --- 5. Media Queries for Mobile/Smaller Screens --- */
 @media (max-width: 768px) {
     .diary-container {

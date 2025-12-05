@@ -161,8 +161,8 @@ export const mockData: emoDiaryType[] =
             day: "Monday",
             time: "22:35:11",
             weather: "Sunny",
-            image: "public/images/cartoon-style-summer-scene-with-cute-animal.jpg",
-            description: "Anxiety and confusion over Sarah's inconsistent texting after a good date, leading to feelings of being disposable and self-blame.",
+            image: "public/images/crush img.jpg",
+            description: "Yep...Bitter sweet...",
             summary: "Yesterday's You felt anxiety rise as he struggled to assign meaning to Sarah's sudden silence, turning the confusion into painful self-doubt about his worth. The emotional high point was conquering his fear to crush a presentation, which brought pure relief and a strong sense of competence.",
             moodScore: 6.8,
             song: {

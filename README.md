@@ -1,10 +1,20 @@
 # MEmoRy
 
-The name “MEmoRy” reflects its core features: EMO (emotion), MEMO (diary), MEMORY, ME, and extends to diaRY and Meditation.
+People move through life too quickly. Most don’t stop to check how they actually feel. Caring for their own emotions becomes an afterthought, and traditional therapy often feels too distant or heavy to approach. Many experience stress, anxiety, or emotional pain, but they can’t name it. They don’t know where it comes from or how to deal with it. Their feelings get buried under noise, routines, and numbness.
+
+**MEmoRy** gives users a simple way to slow down and understand themselves. It lets them chat with AI about their days for diary generation, get AI-generated reflections, track emotional trends, and access meditation content when needed. Everything runs in the browser and stays personal. The goal isn’t to replace therapy, but to offer a quiet space where people can notice their emotions, make sense of them, and take better care of their inner state—one day at a time.
+
+**MEmoRy** is a personal mood tracking and memory recording application that combines daily journaling, emotion visualization, and multimedia experiences. Its main goals are to:
+-	Track and manage moods: Provide intuitive feedback on emotional fluctuations through daily records and ratings.
+-	Enhance self-awareness: Allow users to review historical data to identify behavioral patterns and emotional triggers.
+-	Provide immersive experiences: Use background videos/audio and mindfulness content to help users relax while journaling.
+-	Establish inner harmony: Recognizing that all of these emotions, once acknowledged, will transform into precious memories that define our lives and achieve emotional wholeness.
+
+The name **MEmoRy** reflects its core features: EMO (emotion), MEMO (diary), MEMORY, ME, and extends to diaRY and Meditation.
 
 ---
 
-## 3.1 Main Menu
+## Main Menu
 
 The Main Menu is your entry point to the MEmoRy space. It guides you gently into your personal journey.
 
@@ -24,9 +34,9 @@ The Main Menu is your entry point to the MEmoRy space. It guides you gently into
 
 ---
 
-## 3.2 Emo@Diary
+## Emo@Diary
 
-### 3.2.1 Emo@Diary – Memo
+### Emo@Diary – Memo
 
 #### Page 1: About Today
 Every day is unique, and MEmoRy helps you capture it.
@@ -59,7 +69,7 @@ Every joy, big or small, deserves to be shared.
 
 ---
 
-### 3.2.2 Emo@Diary – Memory
+### Emo@Diary – Memory
 #### Page 1: Quick Glance
 - See a quick overview of your last five diaries’ mood scores on an interactive chart.
 - Switch between diary summaries with the arrows.
@@ -77,8 +87,8 @@ Every joy, big or small, deserves to be shared.
 ![Register](./public/screenshots/memory-deep-dive2.png)
 ---
 
-## 3.3 Emo@Station
-### 3.3.1 Emo@Station – Me
+## Emo@Station
+### Emo@Station – Me
 Your personal corner when you feel lost or need reassurance.
 
 #### Modes
@@ -95,7 +105,7 @@ Your personal corner when you feel lost or need reassurance.
 
 ---
 
-### 3.3.2 Emo@Station – Meditation
+### Emo@Station – Meditation
 When emotions feel overwhelming, find calm here.
 
 #### Pass Them By

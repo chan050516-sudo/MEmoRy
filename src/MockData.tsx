@@ -4,7 +4,7 @@ export const mockData: emoDiaryType[] =
     [
         // --- Day 1 (Monday: Academic Pressure) ---
         {
-        date: "11/22/2025",
+        date: "11/29/2025",
         diaryInfo: {
             day: "Saturday",
             time: "23:14:51",
@@ -82,7 +82,7 @@ export const mockData: emoDiaryType[] =
 
         // --- Day 2 (Tuesday: Social Friction) ---
         {
-        date: "11/23/2025",
+        date: "11/30/2025",
         diaryInfo: {
             day: "Sunday",
             time: "22:10:56",
@@ -156,7 +156,7 @@ export const mockData: emoDiaryType[] =
 
         // --- Day 3 (Wednesday: Dating Confusion & Triumph) ---
         {
-        date: "11/24/2025",
+        date: "12/01/2025",
         diaryInfo: {
             day: "Monday",
             time: "22:35:11",
@@ -226,7 +226,7 @@ export const mockData: emoDiaryType[] =
 
         // --- Day 4 (Thursday: Setback and Breakthrough) ---
         {
-        date: "11/25/2025",
+        date: "12/02/2025",
         diaryInfo: {
             day: "Tuesday",
             time: "22:30:46",
@@ -292,7 +292,7 @@ export const mockData: emoDiaryType[] =
 
         // --- Day 5 (Friday: Existential Dread & Social Reset) ---
         {
-        date: "11/26/2025",
+        date: "11/03/2025",
         diaryInfo: {
             day: "Wednesday",
             time: "21:00:06",
@@ -366,7 +366,7 @@ export const mockData: emoDiaryType[] =
 
         // --- Day 6 (Saturday: Family Pressure & New Connection) ---
         {
-        date: "11/27/2025",
+        date: "12/04/2025",
         diaryInfo: {
             day: "Thursday",
             time: "20:03:25",

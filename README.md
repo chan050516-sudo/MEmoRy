@@ -1,5 +1,11 @@
 # MEmoRy
 
+Note: 
+- In **Memo** feature, my first GEMINI API is down, thus the both AI chat pages will only respond in default API safeguard message, can just skip them to see the last page analysis with song recommendation demo.
+- In **Memory**, to view the demo of diary generation feature, pick any date among the six days within 29/11 to 4/12, which contains the mock data for testing.
+- The background video and the song may take some time to load for ready to display or play.
+
+
 People move through life too quickly. Most don’t stop to check how they actually feel. Caring for their own emotions becomes an afterthought, and traditional therapy often feels too distant or heavy to approach. Many experience stress, anxiety, or emotional pain, but they can’t name it. They don’t know where it comes from or how to deal with it. Their feelings get buried under noise, routines, and numbness.
 
 **MEmoRy** gives users a simple way to slow down and understand themselves. It lets them chat with AI about their days for diary generation, get AI-generated reflections, track emotional trends, and access meditation content when needed. Everything runs in the browser and stays personal. The goal isn’t to replace therapy, but to offer a quiet space where people can notice their emotions, make sense of them, and take better care of their inner state—one day at a time.

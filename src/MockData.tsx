@@ -15,8 +15,8 @@ export const mockData: emoDiaryType[] =
             moodScore: 3.5,
             song: {
             song_title: "Deadman",
-            video_id: "TPyS382hHYM&list=RDTPyS382hHYM&start_radio=1",
-            video_url: "https://www.youtube.com/watch?v=TPyS382hHYM&list=RDTPyS382hHYM&start_radio=1"
+            video_id: "TPyS382hHYM",
+            video_url: "https://www.youtube.com/watch?v=TPyS382hHYM"
             },
             selfReflection: "The paralysis comes from seeing the whole mountain, not just the next step. Need to break down the tasks. Also, finding that amazing food was a good reminder that not everything is about work."
         },
@@ -93,8 +93,8 @@ export const mockData: emoDiaryType[] =
             moodScore: 5.0,
             song: {
             song_title: "亏欠",
-            video_id: "Yc5X38eJH_8&list=RDYc5X38eJH_8&start_radio=1",
-            video_url: "https://www.youtube.com/watch?v=Yc5X38eJH_8&list=RDYc5X38eJH_8&start_radio=1"
+            video_id: "Yc5X38eJH_8",
+            video_url: "https://www.youtube.com/watch?v=Yc5X38eJH_8"
             },
             selfReflection: "I should have just left the room when I felt ignored instead of stewing in resentment. The spontaneous concert was a good reminder that I can find good moments outside of planned social interaction."
         },
@@ -303,8 +303,8 @@ export const mockData: emoDiaryType[] =
             moodScore: 8.5,
             song: {
             song_title: "Don't Stop Me Now",
-            video_id: "HgzGwrmPlF8",
-            video_url: "https://www.youtube.com/watch?v=HgzGwrmPlF8"
+            video_id: "HgzGwKwLmgM",
+            video_url: "https://www.youtube.com/watch?v=HgzGwKwLmgM"
             },
             selfReflection: "The existential questions are exhausting, but the party was a necessary reminder to just live in the moment sometimes. The laughter with my roommate showed that our relationship isn't broken, just strained, which is a big relief."
         },
@@ -377,8 +377,8 @@ export const mockData: emoDiaryType[] =
             moodScore: 9.2,
             song: {
             song_title: "Come Away With Me",
-            video_id: "Q5dFz5S5cRk",
-            video_url: "https://www.youtube.com/watch?v=Q5dFz5S5cRk"
+            video_id: "lbjZPFBD6JU",
+            video_url: "https://www.youtube.com/watch?v=lbjZPFBD6JU"
             },
             selfReflection: "My parents' pressure is stressful, but I need to focus on my own effort, not their judgment. The encounter with Emily was a huge, positive surprise and a reminder that good things happen when you're open to them."
         },

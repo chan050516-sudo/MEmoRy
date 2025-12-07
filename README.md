@@ -5,6 +5,7 @@ Note:
 - In **Memory**, to view the demo of diary generation feature, pick any date among the six days within 29/11 to 4/12, which contains the mock data for testing.
 - The background video and the song may take some time to load for ready to display or play.
 
+---
 
 People move through life too quickly. Most don’t stop to check how they actually feel. Caring for their own emotions becomes an afterthought, and traditional therapy often feels too distant or heavy to approach. Many experience stress, anxiety, or emotional pain, but they can’t name it. They don’t know where it comes from or how to deal with it. Their feelings get buried under noise, routines, and numbness.
 

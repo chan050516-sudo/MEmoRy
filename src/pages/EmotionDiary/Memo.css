@@ -19,7 +19,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: sepia(0.3) brightness(0.8);
+  filter: sepia(0.2);
   display: flex;
   flex-direction: column;
   align-items: center;

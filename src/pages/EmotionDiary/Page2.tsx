@@ -56,7 +56,12 @@ const Page2 = () => {
   }, 
   [appData.emoDiaryData[todayIndex].date, appData.emoDiaryData[todayIndex].negativeDiary]
   );
-  
+
+  /*useEffect(() => {
+    const diary = appData.emoDiaryData[todayIndex].negativeDiary;
+    setTodayMessages(diary ?? []);
+  }, [todayIndex]);*/
+
 
   const handleResponse = async() => {
     try{
@@ -95,7 +100,7 @@ const Page2 = () => {
         throw new Error(`Fail to connect with API: ${response.status} ${response.statusText} - ${errorText}`);
       }
 
-      /* handle if API responses are unable to interpret*/
+      /* handle if API responses are unable to interpret */
       const responseData = await response.json();
       if (!responseData?.candidates?.length) {
         const err = JSON.stringify(responseData, null, 2);
@@ -121,7 +126,7 @@ const Page2 = () => {
     finally {
       setIsLoading(false);
     }
-  };
+  }; 
 
   const updateAppData = (formatMessage: MessageType) => {
     setAppData(prev => ({
@@ -145,7 +150,7 @@ const Page2 = () => {
     updateAppData(formatUserMessage);
     setInputText('');
 
-    /* Update for new AI model message */
+      /* Update for new AI model message */
     const newAiMessage = await handleResponse();
     const formatAiMessage = {role:"model" as "model", content: newAiMessage};
     const aiMessagesData = [...userMessagesData, formatAiMessage]
